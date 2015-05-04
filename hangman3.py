@@ -6,10 +6,9 @@ lives_remaining = 14
 guessed_letters = ''
 
 def pick_a_word():
-    randword = urllib.request.urlopen("http://randomword.setgetgo.com/get.php").read()
-    frandword = randword.decode('utf-8')
-    sfrandword = frandword[:-2]
-    return sfrandword
+    randword = urllib.request.urlopen("http://randomword.setgetgo.com/get.php").read().decode('utf-8')
+    randword = randword[:-2]
+    return randword
 
 def get_guess(word):
     print_word_with_blanks(word)
