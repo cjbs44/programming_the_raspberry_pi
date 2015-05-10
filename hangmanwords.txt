@@ -1,0 +1,17 @@
+note
+that
+the
+python
+console
+has
+a
+current
+directory
+of
+home
+pi
+so
+the
+must
+be
+included
